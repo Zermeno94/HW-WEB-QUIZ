@@ -12,6 +12,7 @@ body {
     font-size:20px;
     font-family: 'Nova Square','cursive';
 }
+
 .choice-container {
     display: flex;
     margin-bottom:0.8rem;
