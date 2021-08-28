@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--This will redirect the user to another page once when they clock on "PLAY"-->
+    <title>Quiz Page</title>
+    <!--Created a seperate game.css for quiz questions and answers-->
+    <link ref="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/game.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game" class="justify-center flex-column">
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progressText" class="hud-prefix">
+                        <!--This will let the user beaware that a question will be asked-->
+                        Question
+                    </p>
+                    </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                
+            </div>
+            <!--The question will be presented with multiple choices for user.-->
+            <h1 id="question">What does DOM stand for?</h1>
+            <!--Multiple choices presented to user to select.-->
+            <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text" data-number="1">Nickname to a main character in Fast & Furious.</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text" data-number="2">Declation of Metrics.</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text" data-number="3">Document Object Model.</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text" data-number="4">Document Observer Model.</p>
+            </div>
+            
+        </div>
+    </div>
+    <!--Links JS-->
+    <script src="/assets/script.js"></script>
+</body>
+</html>
