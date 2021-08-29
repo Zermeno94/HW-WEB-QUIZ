@@ -12,7 +12,7 @@ The assignment is to create a timed coding quiz with multiple-choice questions.T
 5. Once game is over it will allow user to enter intials and redirect to highscore results.
 6. Highscore page allows user to clear out scores or go back to homepage. 
 
-![web code quiz](https://user-images.githubusercontent.com/87839888/131229407-88610727-0203-41fc-a6c7-6184570b7ea2.png)
+![Ready to Play](https://user-images.githubusercontent.com/87839888/131238499-4fa6e567-786c-416a-aaeb-eb976666070a.png)
 
 
 ## **Links**
