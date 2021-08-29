@@ -1,138 +1,153 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
-
-:root {
-    background-image: url(https://wallpapercave.com/wp/JKQCitW.jpg);
-}
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-size:20px;
+body{
+    background-image: url(https://wallpapercave.com/wp/wp2567196.jpg);
     font-family: 'Nova Square','cursive';
+    text-decoration: white;
+}
+
+#wrapper {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    width: 500px;
+    height: 500px;
+    font-family: 'Nova Square','cursive';
+}
+#startTime {
+    background-color: purple;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+}
+#questionsDiv {
+    margin: 20px;
+    color: white;
+}
+
+#currentTime {
+    float: right;
+    color: white;
+}
+
+#goBack {
+    background-color: purple;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    left: 55%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+
+
+#clear {
+    background-color: purple;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    right: 5%;
+    text-align: center;
+    border-radius: 30px;
+}
+
+button {
+    border-radius: 30px;
+}
+
+textarea {
+    width: 90%;
+    margin: 20px;
+}
+
+#Submit {
+    background-color: purple;
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+}
+
+label {
+    margin-right: 10px;
+}
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid lightgray;
 }
 
 h1 {
-    font-size: 5.4rem;
-    color:white;
-    margin-bottom: 5rem;
-}
-
-h2{
-    font-size: 4.2rem;
-    margin-bottom:4rem;
-    
-}
-.container {
-    width:100vw;
-    height:100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width:80rem;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-.flex-column {
-    display:flex;
-    flex-direction: column;
-}
-
-.flex-center {
-    justify-content: center;
-    align-items: center;
-}
-
-.justify-center {
-    justify-content: center;
-}
-.text-center {
-    text-align:center;
-}
-
-.hidden {
-    display: none;
-}
-
-.btn {
-    font-size: 2.4rem;
-    padding: 2rem 0;
-    width: 30rem;
-    text-align:center;
-    margin-bottom:1rem;
-    text-decoration:none;
-    color:rgb(28, 26 ,26);
-    background: linear-Gradient(90deg, rgb(136, 161, 216) 0%,rgb(0, 79, 249)100%);
-    border-radius: 10px;
-}
-
-.btn:hover {
-    cursor:pointer;
-    box-shadow: 0 0.4rem 1.4rem 1 rgba(8, 114,244,0.6);
-    transition: transform 150ms;
-    transform: scale(1.03);
-}
-
-.btn[disabled] :hover {
-    cursor:not-allowed;
-    box-shadow:none;
-    transform: none;
-
-}
-
-#highscore-btn {
-    background: linear-gradient(90deg,rgb(222, 218, 115)0% ,rgb(240, 221, 6) 100%);
-}
-
-#highscore-btn:hover {
-    box-shadow: 0 0.4rem 1.4rem 1 rgba(255,255,0,0.5);
-}
-
-.fa-gamepad {
-    font-size: 2.5rem;
-    margin-left: 1rem;
-}
-
-/* End Page CSS */
-.end-form-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 30rem;
-}
-
-input {
-    margin-bottom: 1rem;
-    width: flex;
-    flex-direction: column;
-    padding: 1.5rem;
-    font-size: 1.8rem;
-    border: none;
-    box-shadow: 0 0.1rem 1.4rem rgba(86,185,235,0.5);
-}
-
-input::placeholder {
-    color:#aaa
-}
-#username {
-    margin-bottom: 3rem;
-    width: 100%;
-    outline: none;
-}
-
-#end-text {
-    font-size: 2.4rem;
-    color: #ffff;
     text-align: center;
+    color:yellow;
 }
 
-#saveScoreBtn {
-    border: none;
+li {
+    background-color: purple;
+    margin-top: 10px;
+    padding: 5px 15px;
+    width: 80%;
+    font-size: 18px;
+    color: white;
+    border-radius: 30px;
 }
 
-.fa-home {
-    margin-left: 17rem;
-    font-size: 2rem;
-    color: rgba(28,26,26);
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
+}
+
+/* Start media queries */
+
+/* A Media Query max-width: 786px */
+@media screen and (max-width: 786px) {
+/* Resized content to fit 786px  */
+body {
+    max-width: 786px;
+}
+/* Resized main-content to fit 786px  */
+#wrapper {
+position: absolute;
+left: 20%;
+}
+
+a {
+margin-left: 20%;
+}
+
+#goBack {
+    
+    position: relative;
+    left: 55%;
+}
+
+#clear {
+    
+    position: relative;
+    right: 5%;  
+    }
+}
+/* A Media Query max-width: 640px */
+@media screen and (max-width: 640px) {
+/* Resized content to fit 640px  */
+body {
+    min-width: 640px;
+}
+/* Resized main-content to fit 640px  */
+#wrapper {
+position: absolute;
+left: 10%;
+}
+a {
+  margin-left: 10%;
+}
 }
