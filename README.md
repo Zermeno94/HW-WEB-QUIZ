@@ -19,7 +19,7 @@ The assignment is to create a timed coding quiz with multiple-choice questions.T
 
  [Link to the deployed website] 
 
- [Link to the code repository]
+ [Link to the code repository] (https://github.com/Zermeno94/HW-WEB-QUIZ)
 
 ## **Credits**
 Miranda Zermeno
